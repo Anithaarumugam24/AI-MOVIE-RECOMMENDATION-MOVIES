@@ -269,10 +269,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = CineMate(root)
     root.mainloop()
-
-if __name__ == "__main__":
-    # Start a virtual display to render the Tkinter window
-    with pyvirtualdisplay.Display(visible=False, size=(1000, 750)): # Use pyvirtualdisplay.Display
-        root = tk.Tk()
-        app = CineMate(root)
-        root.mainloop()
